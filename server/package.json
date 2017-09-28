@@ -1,0 +1,23 @@
+{
+  "name": "more-recipes",
+  "version": "1.0.0",
+  "description": "\"more-recipes server\"",
+  "main": "more_recipes.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "keywords": [
+    "TDD",
+    "javascript"
+  ],
+  "author": "Aminu Barade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.5"
+  }
+}
