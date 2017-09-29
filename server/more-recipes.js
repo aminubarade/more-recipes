@@ -6,20 +6,20 @@ const bodyParser = require("body-parser");
     app.set("view engine", "ejs");
 
     //
-    moreRecipes.post('', function(res, req){
+    moreRecipes.post('/api/recipes', function(res, req){
         res.render();
     });
     //
-    moreRecipes.put('', function(res, req){
+    moreRecipes.put('/api/recipes/:recipeId', function(res, req){
         res.send();
     });
-    moreRecipes.delete('', function(res, req){
+    moreRecipes.delete('/api/recipes/:recipeId', function(res, req){
         res.send();
     });
-    moreRecipes.get('', function(res, req){
+    moreRecipes.get('/api/recipes/', function(res, req){
         res.render();
     });
-    moreRecipes.post('', function(res, req){
+    moreRecipes.post('/api/recipes/:recipeId/reviews', function(res, req){
         res.send();
     });
 
